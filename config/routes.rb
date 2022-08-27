@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  
+
+  root 'top#index'
+
   resources :categories
   devise_for :users, :controllers => {
     :registrations => 'users/registrations',

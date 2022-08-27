@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.field {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.field1 {
+  font-size: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.actions {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.link {
+  text-align: center;
+  margin-top: 10px;
+}

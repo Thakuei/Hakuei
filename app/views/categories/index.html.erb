@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Categories</h1>
+<h1>日記を書こう!!</h1>
 
 <table>
   <thead>
@@ -25,3 +25,4 @@
 <br>
 
 <%= link_to 'New Category', new_category_path %>
+<%= button_to 'ログアウト', destroy_user_session_path, method: :delete %>
